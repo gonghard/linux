@@ -1,0 +1,2 @@
+1.从指定文件查找是否含有指定字符
+find test.log | xargs grep 'invoiceTotal'

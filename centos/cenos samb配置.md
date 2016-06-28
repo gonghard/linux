@@ -6,6 +6,7 @@ yum install samba samba-client samba-commo
 
  chkconfig smb on    
  chkconfig nmb on
+ 可以通过chkconfig --list | grep smb命令来查看是否设置成功
 
 3.在防火墙添加以下配置
 
